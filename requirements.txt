@@ -1,0 +1,15 @@
+# Email Automation & Reminder System - Dependencies
+
+# Core Data Handling & Scheduling
+pandas>=2.0.0
+schedule>=1.2.0
+python-dotenv>=1.0.0
+
+# Optional Web / UI Dashboard
+streamlit>=1.30.0
+
+# Optional Production API Stack (for advanced option / enterprise extensions)
+# fastapi>=0.110.0
+# uvicorn>=0.28.0
+# jinja2>=3.1.0
+# aiosmtplib>=3.0.0

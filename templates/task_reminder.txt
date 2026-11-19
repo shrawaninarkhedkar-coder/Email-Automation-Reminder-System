@@ -1,0 +1,13 @@
+Hello {name},
+
+This is an automated operational reminder from the {department} team.
+
+TASK: {title}
+DUE DATE: {due_date} by {due_time} ({timezone})
+ASSIGNED ROLE: {role}
+
+Please update your project tracking ticket or confirm task completion once done.
+
+Thank you,
+{sender_name}
+Enterprise Operations Automation System

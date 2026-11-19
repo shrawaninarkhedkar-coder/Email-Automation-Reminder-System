@@ -1,0 +1,8 @@
+contact_id,name,email,department,role,timezone,status
+C001,Aarav Sharma,aarav.sharma@example.com,Engineering,Tech Lead,Asia/Kolkata,Active
+C002,Priya Patel,priya.patel@example.com,Human Resources,HR Manager,Asia/Kolkata,Active
+C003,Rohan Verma,rohan.verma@example.com,Finance,Accountant,Asia/Kolkata,Active
+C004,Ananya Iyer,ananya.iyer@example.com,Operations,Ops Specialist,Asia/Kolkata,Active
+C005,Vikram Malhotra,vikram.malhotra@example.com,Sales,Account Executive,Asia/Kolkata,Active
+C006,Neha Gupta,neha.gupta@example.com,Marketing,Growth Lead,Asia/Kolkata,Active
+C007,Invalid User,invalid-email-format,Engineering,Intern,Asia/Kolkata,Active

@@ -1,0 +1,8 @@
+reminder_id,contact_id,template_name,reminder_type,title,due_date,due_time,amount_due,meeting_link,status
+R101,C001,meeting_reminder,Meeting,Quarterly Sprint Planning,2026-11-18,10:30,0.00,https://meet.google.com/abc-defg-hij,Pending
+R102,C002,task_reminder,Task,Submit Monthly Payroll Audit,2026-11-18,14:00,0.00,N/A,Pending
+R103,C003,payment_reminder,Payment,Pending Software License Invoice,2026-11-19,16:00,14500.00,https://pay.example.com/inv-9821,Pending
+R104,C004,webinar_reminder,Webinar,Modern Python Automation Masterclass,2026-11-20,18:00,0.00,https://webinar.example.com/join/774,Pending
+R105,C005,meeting_reminder,Follow-up,Enterprise Client Follow-up Call,2026-11-18,11:00,0.00,https://teams.microsoft.com/l/meetup/123,Pending
+R106,C006,task_reminder,Task,Update Q4 Marketing KPIs,2026-11-21,17:00,0.00,N/A,Pending
+R107,C007,meeting_reminder,Meeting,Intern Onboarding Sync,2026-11-18,12:00,0.00,https://meet.google.com/xyz-uvw,Pending

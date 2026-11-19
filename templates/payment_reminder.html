@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Payment Due Notice: {title}</title>
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #fbfbfc; margin: 0; padding: 20px; color: #2d3748; }
+    .email-container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 8px; border: 1px solid #e2e8f0; overflow: hidden; }
+    .header { background: #b91c1c; color: #ffffff; padding: 25px 20px; text-align: center; }
+    .header h2 { margin: 0; font-size: 22px; }
+    .content { padding: 30px 24px; line-height: 1.6; }
+    .invoice-card { background-color: #fef2f2; border: 1px dashed #ef4444; border-radius: 6px; padding: 18px; margin: 20px 0; }
+    .amount { font-size: 24px; font-weight: bold; color: #dc2626; margin: 5px 0; }
+    .btn-container { text-align: center; margin: 25px 0; }
+    .pay-btn { background-color: #dc2626; color: #ffffff !important; padding: 12px 28px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; }
+    .footer { background-color: #f8fafc; padding: 15px; text-align: center; font-size: 12px; color: #718096; border-top: 1px solid #edf2f7; }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <div class="header">
+      <h2>Invoice & Payment Reminder</h2>
+    </div>
+    <div class="content">
+      <p>Hello <strong>{name}</strong>,</p>
+      <p>This is a courtesy reminder from the Finance & Accounts department regarding an outstanding payment associated with your account.</p>
+
+      <div class="invoice-card">
+        <p><strong>Item / Service:</strong> {title}</p>
+        <p><strong>Total Amount Due:</strong></p>
+        <div class="amount">₹{amount_due}</div>
+        <p><strong>Due Date:</strong> {due_date} by {due_time}</p>
+      </div>
+
+      <div class="btn-container">
+        <a href="{meeting_link}" class="pay-btn" target="_blank">View Invoice & Pay Online</a>
+      </div>
+
+      <p>If you have already processed this transaction within the last 24 hours, please disregard this notice.</p>
+      <p>Sincerely,<br><strong>Finance Operations Team</strong><br>{sender_name}</p>
+    </div>
+    <div class="footer">
+      <p>Automated Billing Dispatcher | Confidential & Privileged Notice</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+reminder_id,recipient_name,recipient_email,department,reminder_title,status,message_id,error_reason,timestamp
+R101,Aarav Sharma,aarav.sharma@example.com,Engineering,Quarterly Sprint Planning,Simulated,MSG-C6DD556904,None,2026-11-19 22:44:23
+R102,Priya Patel,priya.patel@example.com,Human Resources,Submit Monthly Payroll Audit,Simulated,MSG-F68389963E,None,2026-11-19 22:44:23
+R103,Rohan Verma,rohan.verma@example.com,Finance,Pending Software License Invoice,Simulated,MSG-2940197F74,None,2026-11-19 22:44:23
+R104,Ananya Iyer,ananya.iyer@example.com,Operations,Modern Python Automation Masterclass,Simulated,MSG-2235D28E60,None,2026-11-19 22:44:23
+R105,Vikram Malhotra,vikram.malhotra@example.com,Sales,Enterprise Client Follow-up Call,Simulated,MSG-84AE1A1DBE,None,2026-11-19 22:44:23
+R106,Neha Gupta,neha.gupta@example.com,Marketing,Update Q4 Marketing KPIs,Simulated,MSG-0C90ECE575,None,2026-11-19 22:44:23
+R107,Invalid User,invalid-email-format,Engineering,Intern Onboarding Sync,Failed,N/A,Invalid recipient email format: 'invalid-email-format',2026-11-19 22:44:24
